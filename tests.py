@@ -2,7 +2,7 @@ import unittest
 from core.bisection_method import BisectionMethod
 
 class TestBisectionMethod(unittest.TestCase):
-    def test_process(self):
+    def test_bisection_method(self):
         math_function = lambda x: ((16 * x) + 37)
         bound_one = -10
         bound_two = 10
