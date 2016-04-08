@@ -5,3 +5,5 @@
 This is a Python package that includes some basic numerical analysis methods.
 
 Currently a work in progress.
+
+Minimum required Python version: 3.5.
