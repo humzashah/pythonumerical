@@ -1,9 +1,11 @@
 class BisectionMethod():
     """
+    Theory: https://en.wikipedia.org/wiki/Bisection_method
+
     This class takes in a function with 2 bound values and finds the root using the bisection method.
 
     You can instantiate the class with the function and the bound values; a method on the instance lets
-    you find the root based on margin or error and the number of iterations - parameters that the accuracy
+    you find the root based on margin of error and the number of iterations - parameters that the accuracy
     depends on.
 
     Example:
