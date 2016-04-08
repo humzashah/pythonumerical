@@ -1,5 +1,7 @@
-import unittest
 from core.bisection_method import BisectionMethod
+from core.false_position_method import FalsePositionMethod
+
+import unittest
 
 class TestBisectionMethod(unittest.TestCase):
     def test_bisection_method(self):
